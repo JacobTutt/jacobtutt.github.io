@@ -5,7 +5,7 @@
     "image": "",
     "email": "jlt67@cam.ac.uk",
     "url": "https://jacobtutt.github.io",
-    "summary": "Astrophysics PhD candidate at the University of Cambridge, specialising in Bayesian inference, machine learning, and high-performance computing. My research focuses on developing scalable statistical and computational methods to extract cosmological insights from large-scale datasets, with a particular emphasis on redshifted 21-cm observations in the emerging Exascale Era of Radio Astronomy."
+    "summary": "Astrophysics PhD candidate at the University of Cambridge, specialising in Bayesian inference, machine learning, and high-performance computing. My research focuses on developing scalable statistical and computational methods to extract cosmological insights from large-scale datasets, with a particular emphasis on the 21cm line observations in the emerging Era of Exascale Radio Astronomy."
   },
   "work": [
     {
@@ -14,7 +14,7 @@
       "url": "https://www.phy.cam.ac.uk/",
       "startDate": "2025-10-01",
       "endDate": "Present",
-      "highlights": ["Research focused on developing advanced Bayesian machine learning pipelines for radio cosmology", "Particularly targeting the analysis of redshifted 21cm signals from the Cosmic Dawn and Epoch of Reionisation"]
+      "highlights": ["Research focused on developing advanced Bayesian machine learning pipelines for radio cosmology", "Particularly the detection of the 21cm signal redshifted from the Cosmic Dawn and Epoch of Reionisation"]
     }, 
     {
       "name": "University of Cambridge",
@@ -30,7 +30,7 @@
       "url": "https://www.phy.cam.ac.uk/",
       "startDate": "2024-10-01",
       "endDate": "2025-09-31",
-      "highlights": ["Research focused on optimisation of probabilistic unsupervised machine learning methods to near-field cosmology" , "Indentifying stellar subpopulations from within chemo-dynamical datasets from GAIA, APOGEE and GALAH",  "Enabling robust, uncertainty-aware insights into the formation and assembly history of the Milky Way and building pipelines for the next generation of surveys"]
+      "highlights": ["Research focused on optimisation of probabilistic unsupervised machine learning methods for near-field cosmology" , "Indentifying stellar subpopulations from within chemo-dynamical datasets constructed from GAIA, APOGEE and GALAH",  "Enabling robust, uncertainty-aware insights into the formation and assembly history of the Milky Way", "Building pipelines designed for the volume and dimensionality of the next generation of surveys"]
     }
   ],
   "education": [
@@ -50,7 +50,7 @@
       "studyType": "MPhil Data Intensive Science",
       "startDate": "2024-10-01",
       "endDate": "2025-09-31",
-      "area": "Graduate course jointly taught across DAMTP, the Institute of Astronomy, and the Cavendish Laboratory, covering statistical inference, deep learning, and advanced software development for large-scale astronomical data. Focousing on their application to theoretical astrophysics including galactic archaeology, cosmology, and gravitational waves.",
+      "area": "Graduate course jointly taught across DAMTP, the Institute of Astronomy, and the Cavendish Laboratory, covering statistical inference, deep learning, and advanced software development for large-scale astronomical data. Focusing on applications to theoretical astrophysics including galactic archaeology, cosmology, and gravitational waves.",
       "courses": ["Grade: High Distinction (85%)"]
     },
     {
@@ -59,7 +59,7 @@
       "studyType": "BSc Physics",
       "startDate": "2021-10-01",
       "endDate": "2024-07-01",
-      "area": "Advanced coursework in pure mathematics, theoretical physics, and astrophysics, complemented by research projects in computational modelling, statistical inference, and observational techniques conducted within the Centre for Extragalactic Astronomy and the Institute for Computational Cosmology.",
+      "area": "Took modules in pure mathematics, theoretical physics, and astrophysics, complemented by research projects in computational modelling, statistical inference, and observational techniques conducted within the Centre for Extragalactic Astronomy and the Institute for Computational Cosmology.",
       "courses": ["Grade: First Class (4th in Cohort)"]
     },
     {

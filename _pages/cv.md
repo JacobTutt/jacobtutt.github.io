@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 1
 cv_pdf: example_pdf.pdf # you can also use external links here
-description: Please find an outline (and PDF) of my academic CV, focusing on my academic background. For a more general or industry-focused CV, feel free to contact me for the latest version.
+description: Please find an outline (and PDF) of my CV, focusing on my academic background. For a more general or industry-focused CV, feel free to contact me for the latest version.
 toc:
   sidebar: left
 ---
