@@ -46,6 +46,7 @@
     },
     {
       "institution": "University of Cambridge, UK",
+      "location": "Cambridge, UK",
       "url": "https://mphildis.bigdata.cam.ac.uk",
       "studyType": "MPhil Data Intensive Science",
       "startDate": "2024-10-01",
@@ -54,7 +55,8 @@
       "courses": ["Grade: High Distinction (85%)"]
     },
     {
-      "institution": "Durham University, UK",
+      "institution": "Durham University",
+      "location": "Durham, UK",
       "url": "https://www.durham.ac.uk/departments/academic/physics/",
       "studyType": "BSc Physics",
       "startDate": "2021-10-01",
@@ -63,8 +65,8 @@
       "courses": ["Grade: First Class (4th in Cohort)"]
     },
     {
-      "institution": "Churcher’s College, UK",
-      "location": "UK",
+      "institution": "Churcher’s College",
+      "location": "Hampshire, UK",
       "area": "Mathematics, Further Mathematics, Physics, Chemistry",
       "studyType": "A-Level",
       "startDate": "2019-09-01",
