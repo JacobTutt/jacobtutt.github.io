@@ -137,12 +137,15 @@
         </span>
       {% endif %}
       {% if entry.annotation %}
+        {% capture ann_html -%}
+          {{ entry.annotation | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+        {%- endcapture %}
         <i
           class="fa-solid fa-circle-info ml-1"
           data-toggle="popover"
           data-placement="top"
           data-html="true"
-          data-content="{{ entry.annotation | escape }}"
+          data-content='{{ ann_html | replace: "'", "&#39;" }}'
         >
         </i>
       {% endif %}
