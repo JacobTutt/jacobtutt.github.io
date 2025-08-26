@@ -5,7 +5,9 @@ title: CV
 nav: true
 nav_order: 1
 cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: >
+  Please find an outline (and PDF) of my academic CV, focusing on my academic background.  
+  For a more general or industry-focused CV, feel free to <a href="mailto:jlt67@cam.ac.uk">contact me</a> for the latest version.
 toc:
   sidebar: left
 ---
