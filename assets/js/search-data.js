@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "CV",
-          description: "Please find an outline (and PDF) of my academic CV, focusing on my academic background.   For a more general or industry-focused CV, feel free to contact me for the latest version.",
+          description: "Please find an outline (and PDF) of my academic CV, focusing on my academic background. For a more general or industry-focused CV, feel free to contact me for the latest version.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
