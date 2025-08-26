@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Battcock Centre for Experimental Astrophysics</p>
+    <p>Battcock Centre</p>
     <p>Cavendish Laboratory</p>
     <p>JJ Thomson Avenue</p>
     <p>Cambridge, UK - CB3 0HE</p>
