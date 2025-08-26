@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /projects/
-title: projects
+title: Projects
 description: A collection of my projects and courseworks from throughout my BSc and MPhil.
 nav: true
 nav_order: 2
