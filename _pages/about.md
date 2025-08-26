@@ -2,16 +2,17 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <em>Astrophysics PhD Candidate</em> <br> <em><a href=https://www.cavendishradiocosmology.com/>Radio Astronomy and Cosmology</a></em> <br> <em><a href=https://www.phy.cam.ac.uk/>Cavendish Laboratory, University of Cambridge</a></em>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Battcock Centre for Experimental Astrophysics</p>
+    <p>Cavendish Laboratory</p>
+    <p>JJ Thomson Avenue</p>
+    <p>Cambridge, UK - CB3 0HE</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
