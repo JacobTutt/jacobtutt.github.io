@@ -45,7 +45,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/jacob-tutt-8a1b62256", "_blank");
+          window.open("https://www.linkedin.com/in/jacobltutt", "_blank");
         },
       },{
         id: 'social-work',
