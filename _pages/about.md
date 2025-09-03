@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <em>Astrophysics PhD Candidate</em> <br> <em><a href=https://www.cavendishradiocosmology.com/>Radio Astronomy and Cosmology</a></em> <br> <em><a href=https://www.kicc.cam.ac.uk/>Kavli Institute for Cosmology</a></em> <br> <em><a href=https://www.phy.cam.ac.uk/>Cavendish Laboratory, University of Cambridge</a></em> <br> <em>This WIP website - written as a template prior to starting PhD </em>
+subtitle: <em>Astrophysics PhD Candidate</em> <br> <em><a href=https://www.cavendishradiocosmology.com/>Radio Astronomy and Cosmology</a></em> <br> <em><a href=https://www.kicc.cam.ac.uk/>Kavli Institute for Cosmology</a></em> <br> <em><a href=https://www.phy.cam.ac.uk/>Cavendish Laboratory, University of Cambridge</a></em>
 
 profile:
   align: right
