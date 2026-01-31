@@ -24,14 +24,14 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-papers",
-          title: "papers",
+          title: "Papers",
           description: "Papers and preprints.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/papers/";
           },
         },{id: "nav-talks",
-          title: "talks",
+          title: "Talks",
           description: "Talks and presentations.",
           section: "Navigation",
           handler: () => {
@@ -40,17 +40,7 @@ ninja.data = [{
         },{id: "news-joined-the-radio-astronomy-and-cosmology-group-at-the-cavendish-laboratory-university-of-cambridge-as-a-astrophysics-phd-candidate-under-the-supervision-of-dr-eloy-de-lera-acedo",
           title: 'Joined the Radio Astronomy and Cosmology Group at the Cavendish Laboratory, University of...',
           description: "",
-          section: "News",},{id: "papers-optimising-foreground-parametrisation-for-global-21-cm-cosmology-with-gpu-accelerated-nested-sampling",
-          title: 'Optimising Foreground Parametrisation for Global 21-cm Cosmology with GPU-Accelerated Nested Sampling',
-          description: "arXiv preprint on GPU-accelerated nested sampling for global 21-cm cosmology.",
-          section: "Papers",handler: () => {
-              window.location.href = "/papers/optimising-foreground-gpu-nested-sampling/";
-            },},{id: "talks-accelerating-21-cm-cosmological-inference-for-reach-with-jax-gpus",
-          title: 'Accelerating 21-cm Cosmological Inference for REACH with JAX/GPUs',
-          description: "Presentation at the REACH Annual Meeting 2025.",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/accelerating-21cm-reach-jax-gpus/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
