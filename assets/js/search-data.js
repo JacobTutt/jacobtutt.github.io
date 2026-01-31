@@ -66,7 +66,14 @@ ninja.data = [{
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.kicc.cam.ac.uk/staff/jacob-tutt", "_blank");
+          window.open("https://www.kicc.cam.ac.uk/staff/jacob-tutt-0", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0002-5358-4292", "_blank");
         },
       },{
       id: 'light-theme',
