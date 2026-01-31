@@ -15,6 +15,8 @@ profile:
     <p>Cambridge, UK - CB3 0HE</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_projects: true # includes a list of projects marked as "selected={true}"
+selected_talks: true # includes a list of talks marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
