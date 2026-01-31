@@ -4,7 +4,7 @@ permalink: /projects/
 title: Projects
 description: A collection of my projects and courseworks from throughout my BSc and MPhil.
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 <!-- _pages/publications.md -->
@@ -15,6 +15,6 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --file projects %}
 
 </div>
