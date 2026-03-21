@@ -76,6 +76,12 @@
   ],
   "awards": [
     {
+      "title": "UKRI Travel Grant",
+      "date": "2026-03-01",
+      "awarder": "UKRI Digital Research Infrastructure (DRI)",
+      "summary": "Funding to present work on GPU-accelerated Bayesian inference for SKA-era 21-cm cosmology at the AI in Radio Astronomy Workshop, Royal Observatory Edinburgh."
+    },
+    {
       "title": "Jesus College Scholarship",
       "date": "2025-12-01",
       "awarder": "Jesus College, University of Cambridge",
