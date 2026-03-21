@@ -1,8 +1,8 @@
 ---
 ---
 @article{Tutt2026GPUForegrounds,
-  author  = {Tutt, Jacob L. and Sims, Peter H. and Anstey, Dominic J. and Pattison, Joe H. N. and de Lera Acedo, Eloy and Leeney, Samuel A. K.},
-  title   = {Optimising Foreground Parametrisation for Global 21-cm Cosmology with GPU-Accelerated Nested Sampling},
+  author  = {Tutt, Jacob L. and Sims, Peter H. and Pattison, Joe H. N. and Anstey, Dominic J. and Leeney, Samuel A. K. and de Lera Acedo, Eloy},
+  title   = {Optimising Foreground Modelling for Global 21cm Cosmology with GPU-Accelerated Nested Sampling},
   journal = {arXiv e-prints},
   year    = {2026},
   eprint  = {2603.13196},
@@ -10,11 +10,11 @@
   archivePrefix = {arXiv},
   primaryClass  = {astro-ph.CO},
   pdf     = {tutt_2026.pdf},
+  abstract = {The global 21-cm signal provides a powerful probe of early-Universe astrophysics, but its detection is hindered by Galactic foregrounds that are orders of magnitude brighter than the signal and distortions introduced by beam chromaticity. These challenges require accurate foreground modelling, rigorous Bayesian model comparison, and robust validation frameworks. In this work, we substantially accelerate global 21-cm inference by exploiting GPU architectures, enabling likelihood evaluations to achieve near-constant wall-clock time across a wide range of model dimensionalities and data volumes. Combined with algorithmic parallelisation of Nested Sampling, this reduces the total inference runtime of this work from hundreds of CPU-years to approximately two GPU-days, corresponding to a cost reduction of over two orders of magnitude. Leveraging this capability, we advance the physically motivated forward-modelling approach, in which foregrounds are represented by a discrete set of sky regions by introducing a novel, observation-dependent sky-partitioning scheme that defines regions using the antenna beam–convolved sky power of a given observing window. We show that this scheme improves modelling performance in three ways: firstly, by enforcing a strictly nested region hierarchy that enables clear identification of the Occam penalty in the Bayesian evidence, facilitating principled optimisation of model complexity; secondly, by enabling more accurate recovery of spatially varying spectral indices, with posterior estimates centred within physically plausible ranges; and thirdly, by allowing complex foregrounds to be modelled for robust global 21-cm signal inference using substantially fewer parameters. Overall, this approach achieves validated recovery at lower region counts, corresponding to an approximate 40% reduction in foreground-model dimensionality.},
   annotation={Image Credit: [NVIDIA](https://www.nvidia.com/en-gb/data-center/resources/)},
   preview = {gpu_cluster.jpeg}, 
   selected={true}
 }
-
 
 
 

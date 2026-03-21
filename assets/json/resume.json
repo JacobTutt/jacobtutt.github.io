@@ -22,7 +22,7 @@
       "url": "https://www.phy.cam.ac.uk/",
       "startDate": "2025-10-01",
       "endDate": "Present",
-      "highlights": ["Natural Sciences, Physics 1A - supervising small teaching groups of undergraduates", "MPhil Data Intensive Science, Advanced Statistical Methods - supervising graduate students in Bayesian statistical modelling and computation, including Monte Carlo methods, MCMC and nested sampling, model comparison, hierarchical modelling, and uncertainty quantification for scientific data analysis."] 
+      "highlights": ["Natural Sciences, Physics 1A - supervising small teaching groups of undergraduates", "MPhil Data Intensive Science, Statistical Methods - supervising graduate students in statistical theory, probabilistic modelling, and scientific inference for data-intensive applications.", "MPhil Data Intensive Science, Advanced Statistical Methods - supervising graduate students in Bayesian modelling and computation, including Monte Carlo methods, MCMC, nested sampling, and model comparison for scientific data analysis."] 
     }, 
     {
       "name": "Institute of Astronomy, University of Cambridge",
@@ -76,6 +76,12 @@
   ],
   "awards": [
     {
+      "title": "Jesus College Scholarship",
+      "date": "2025-12-01",
+      "awarder": "Jesus College, University of Cambridge",
+      "summary": "Recognised for outstanding academic achievement in the MPhil."
+    },
+    {
       "title": "Cavendish Scholarship",
       "date": "2025-10-01",
       "awarder": "Cavendish Laboratory, University of Cambridge",
@@ -86,12 +92,6 @@
       "date": "2025-10-01",
       "awarder": "University of Cambridge",
       "summary": "Selected for the Harding Distinguished Postgraduate Scholars Programme."
-    },
-    {
-      "title": "Jesus College Scholarship",
-      "date": "2025-12-01",
-      "awarder": "Jesus College, University of Cambridge",
-      "summary": "Recognised for outstanding academic achievement in the MPhil."
     },
     {
       "title": "Durham Physics Award",
