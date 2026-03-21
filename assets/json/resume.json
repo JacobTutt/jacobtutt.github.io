@@ -18,11 +18,11 @@
     }, 
     {
       "name": "University of Cambridge",
-      "position": "Undergraduate Supervisor",
+      "position": "Supervisor",
       "url": "https://www.phy.cam.ac.uk/",
       "startDate": "2025-10-01",
       "endDate": "Present",
-      "highlights": ["Natural Sciences, Physics 1A - supervising small teaching groups of undergraduates", "MPhil Data Intensive Science, Statistical Methods - supervising graduate students in key statistical theory and methods behind data science and machine learning."] 
+      "highlights": ["Natural Sciences, Physics 1A - supervising small teaching groups of undergraduates", "MPhil Data Intensive Science, Advanced Statistical Methods - supervising graduate students in Bayesian statistical modelling, Monte Carlo and nested sampling algorithms, model comparison, and uncertainty quantification for scientific data analysis."] 
     }, 
     {
       "name": "Institute of Astronomy, University of Cambridge",
@@ -86,6 +86,12 @@
       "date": "2025-10-01",
       "awarder": "University of Cambridge",
       "summary": "Selected for the Harding Distinguished Postgraduate Scholars Programme."
+    },
+    {
+      "title": "Jesus College Scholarship",
+      "date": "2025-12-01",
+      "awarder": "Jesus College, University of Cambridge",
+      "summary": "Awarded in recognition of excellent MPhil results, in line with the College's scholarship criteria for Masters students achieving first-class-equivalent performance or distinction in elements of their studies."
     },
     {
       "title": "Durham Physics Award",
