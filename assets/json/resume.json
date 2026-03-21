@@ -22,7 +22,7 @@
       "url": "https://www.phy.cam.ac.uk/",
       "startDate": "2025-10-01",
       "endDate": "Present",
-      "highlights": ["Natural Sciences, Physics 1A - supervising small teaching groups of undergraduates", "MPhil Data Intensive Science, Advanced Statistical Methods - supervising graduate students in Bayesian statistical modelling, Monte Carlo and nested sampling algorithms, model comparison, and uncertainty quantification for scientific data analysis."] 
+      "highlights": ["Natural Sciences, Physics 1A - supervising small teaching groups of undergraduates", "MPhil Data Intensive Science, Advanced Statistical Methods - supervising graduate students in Bayesian statistical modelling and computation, including Monte Carlo methods, MCMC and nested sampling, model comparison, hierarchical modelling, and uncertainty quantification for scientific data analysis."] 
     }, 
     {
       "name": "Institute of Astronomy, University of Cambridge",
@@ -91,7 +91,7 @@
       "title": "Jesus College Scholarship",
       "date": "2025-12-01",
       "awarder": "Jesus College, University of Cambridge",
-      "summary": "Awarded in recognition of excellent MPhil results, in line with the College's scholarship criteria for Masters students achieving first-class-equivalent performance or distinction in elements of their studies."
+      "summary": "Awarded in recognition of outstanding MPhil results."
     },
     {
       "title": "Durham Physics Award",
