@@ -13,6 +13,12 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography --file papers %}
+<h2>First Author</h2>
+
+{% bibliography --file papers --query @*[first_author=true] %}
+
+<h2>Collaborating Author</h2>
+
+{% bibliography --file papers --query @*[first_author!=true] %}
 
 </div>

@@ -13,9 +13,22 @@
   abstract = {The global 21-cm signal provides a powerful probe of early-Universe astrophysics, but its detection is hindered by Galactic foregrounds that are orders of magnitude brighter than the signal and distortions introduced by beam chromaticity. These challenges require accurate foreground modelling, rigorous Bayesian model comparison, and robust validation frameworks. In this work, we substantially accelerate global 21-cm inference by exploiting GPU architectures, enabling likelihood evaluations to achieve near-constant wall-clock time across a wide range of model dimensionalities and data volumes. Combined with algorithmic parallelisation of Nested Sampling, this reduces the total inference runtime of this work from hundreds of CPU-years to approximately two GPU-days, corresponding to a cost reduction of over two orders of magnitude. Leveraging this capability, we advance the physically motivated forward-modelling approach, in which foregrounds are represented by a discrete set of sky regions by introducing a novel, observation-dependent sky-partitioning scheme that defines regions using the antenna beam–convolved sky power of a given observing window. We show that this scheme improves modelling performance in three ways: firstly, by enforcing a strictly nested region hierarchy that enables clear identification of the Occam penalty in the Bayesian evidence, facilitating principled optimisation of model complexity; secondly, by enabling more accurate recovery of spatially varying spectral indices, with posterior estimates centred within physically plausible ranges; and thirdly, by allowing complex foregrounds to be modelled for robust global 21-cm signal inference using substantially fewer parameters. Overall, this approach achieves validated recovery at lower region counts, corresponding to an approximate 40% reduction in foreground-model dimensionality.},
   annotation={Image Credit: [NVIDIA](https://www.nvidia.com/en-gb/data-center/resources/)},
   preview = {gpu_cluster.jpeg}, 
+  first_author = {true},
   selected={true}
 }
 
-
-
-
+@article{Leeney2026cNBRE,
+  author  = {Leeney, Samuel Alan Kossoff and Gessey-Jones, Thomas and Handley, Will and de Lera Acedo, Eloy and Bevins, Harry T. J. and Tutt, Jacob L.},
+  title   = {Conditional Neural Bayes Ratio Estimation for Experimental Design Optimisation},
+  journal = {arXiv e-prints},
+  year    = {2026},
+  eprint  = {2603.26489},
+  arxiv   = {2603.26489},
+  archivePrefix = {arXiv},
+  primaryClass  = {astro-ph.IM},
+  pdf     = {2603.26489.pdf},
+  abstract = {For frontier experiments operating at the edge of detectability, instrument design directly determines the probability of discovery. We introduce Conditional Neural Bayes Ratio Estimation (cNBRE), which extends neural Bayes ratio estimation by conditioning on design parameters, enabling a single trained network to estimate Bayes factors across a continuous design space. Applied to 21-cm radio cosmology with simulations representative of the REACH experiment, the amortised nature of cNBRE enables systematic design space exploration that would be intractable with traditional point-wise methods, while recovering established physical relationships. The analysis demonstrates a ~20 percentage point variation in detection probability with antenna orientation for a single night of observation, a design decision that would be trivial to implement if determined prior to antenna construction. This framework enables efficient, globally-informed experimental design optimisation for a wide range of scientific applications.},
+  preview = {cnbre_logo.png},
+  annotation = {Image Credit: Google Gemini},
+  note    = {Submitted to IEEE Transactions on Neural Networks and Learning Systems}
+}
