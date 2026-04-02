@@ -76,6 +76,13 @@ ninja.data = [{
           window.open("https://orcid.org/0009-0002-5358-4292", "_blank");
         },
       },{
+        id: 'social-arxiv_url',
+        title: 'Arxiv_url',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
