@@ -1,10 +1,25 @@
----
----
+@article{Tutt2026BeamMarginalisation,
+  author  = {Tutt, Jacob L. and Anstey, Dominic J. and Cumner, John and Bevins, Harry T. J. and Cavillot, Jean and de Lera Acedo, Eloy},
+  title   = {Towards end-to-end Bayesian forward models in global 21-cm cosmology: surrogate modelling and marginalisation of beam uncertainty},
+  journal = {arXiv e-prints},
+  year    = {2026},
+  eprint  = {2608.18962},
+  arxiv   = {2608.18962},
+  archivePrefix = {arXiv},
+  primaryClass  = {astro-ph.CO},
+  pdf     = {https://arxiv.org/pdf/2608.18962},
+  abstract = {Robust statistical inference in global 21-cm cosmology requires end-to-end uncertainty quantification that jointly handles the highly degenerate cosmological signal, foreground emission, and instrumental response. Although electromagnetic simulations capture physical antenna properties in a parametrised way, multi-hour runtimes make their integration within likelihood-based sampling frameworks infeasible. Most existing approaches therefore assume a single precomputed beam, a fragile assumption given our demonstration that realistic mismatches can severely bias the recovered cosmological and foreground parameters. To address this, we present an accelerated and differentiable Bayesian framework that incorporates an informed surrogate representation of chromatic beam uncertainty directly into a forward-modelling pipeline. Treating the physical antenna properties as nuisance quantities, we apply a two-stage decomposition directly to simulated directivity patterns, reducing the instrumental parameterisation by two orders of magnitude while retaining the angular and spectral structure required for accurate beam reconstruction. Exploiting the linearity of the resulting surrogate, we use analytical marginalisation to allow the continuous instrumental uncertainty to be propagated into the final posteriors and Bayesian evidence without directly sampling the beam space. Testing the framework against a suite of unseen beams and cosmological signals, we recover the true inputs at approximately the instrumental-noise level. We further show that, for the uncertainty considered here, as few as 100 electromagnetic simulations are sufficient to construct an effective surrogate, substantially reducing the simulation burden for future analyses. This framework provides a scalable, statistically rigorous route towards hardware-accelerated uncertainty quantification in global 21-cm cosmology.},
+  author_role = {first}
+}
+
 @article{Tutt2026GPUForegrounds,
   author  = {Tutt, Jacob L. and Sims, Peter H. and Pattison, Joe H. N. and Anstey, Dominic J. and Leeney, Samuel A. K. and de Lera Acedo, Eloy},
   title   = {Optimising Foreground Modelling for Global 21cm Cosmology with GPU-Accelerated Nested Sampling},
-  journal = {arXiv e-prints},
+  journal = {Monthly Notices of the Royal Astronomical Society},
   year    = {2026},
+  volume  = {550},
+  number  = {1},
+  doi     = {10.1093/mnras/stag1101},
   eprint  = {2603.13196},
   arxiv   = {2603.13196},
   archivePrefix = {arXiv},
@@ -13,8 +28,7 @@
   abstract = {The global 21-cm signal provides a powerful probe of early-Universe astrophysics, but its detection is hindered by Galactic foregrounds that are orders of magnitude brighter than the signal and distortions introduced by beam chromaticity. These challenges require accurate foreground modelling, rigorous Bayesian model comparison, and robust validation frameworks. In this work, we substantially accelerate global 21-cm inference by exploiting GPU architectures, enabling likelihood evaluations to achieve near-constant wall-clock time across a wide range of model dimensionalities and data volumes. Combined with algorithmic parallelisation of Nested Sampling, this reduces the total inference runtime of this work from hundreds of CPU-years to approximately two GPU-days, corresponding to a cost reduction of over two orders of magnitude. Leveraging this capability, we advance the physically motivated forward-modelling approach, in which foregrounds are represented by a discrete set of sky regions by introducing a novel, observation-dependent sky-partitioning scheme that defines regions using the antenna beam–convolved sky power of a given observing window. We show that this scheme improves modelling performance in three ways: firstly, by enforcing a strictly nested region hierarchy that enables clear identification of the Occam penalty in the Bayesian evidence, facilitating principled optimisation of model complexity; secondly, by enabling more accurate recovery of spatially varying spectral indices, with posterior estimates centred within physically plausible ranges; and thirdly, by allowing complex foregrounds to be modelled for robust global 21-cm signal inference using substantially fewer parameters. Overall, this approach achieves validated recovery at lower region counts, corresponding to an approximate 40% reduction in foreground-model dimensionality.},
   annotation={Image Credit: [NVIDIA](https://www.nvidia.com/en-gb/data-center/resources/)},
   preview = {gpu_cluster.jpeg}, 
-  first_author = {true},
-  note    = {Submitted to the Monthly Notices of the Royal Astronomical Society},
+  author_role = {first},
   selected={true}
 }
 
@@ -31,5 +45,34 @@
   abstract = {For frontier experiments operating at the edge of detectability, instrument design directly determines the probability of discovery. We introduce Conditional Neural Bayes Ratio Estimation (cNBRE), which extends neural Bayes ratio estimation by conditioning on design parameters, enabling a single trained network to estimate Bayes factors across a continuous design space. Applied to 21-cm radio cosmology with simulations representative of the REACH experiment, the amortised nature of cNBRE enables systematic design space exploration that would be intractable with traditional point-wise methods, while recovering established physical relationships. The analysis demonstrates a ~20 percentage point variation in detection probability with antenna orientation for a single night of observation, a design decision that would be trivial to implement if determined prior to antenna construction. This framework enables efficient, globally-informed experimental design optimisation for a wide range of scientific applications.},
   preview = {cnbre_logo.png},
   annotation = {Image Credit: Google Gemini},
-  note    = {Submitted to IEEE Transactions on Neural Networks and Learning Systems}
+  note    = {Submitted to IEEE Transactions on Neural Networks and Learning Systems},
+  author_role = {contributing}
+}
+
+@article{Leeney2026DataCuration,
+  author  = {Leeney, Samuel A. K. and de Lera Acedo, Eloy and Handley, W. J. and Bevins, H. T. J. and Allen, G. and Anstey, D. and Artuc, K. and Bernardi, G. and Bucher, M. and Carey, S. and Cavillot, J. and Chiello, R. and Chu, A. S. and Croukamp, W. and Cumner, J. and Dasgupta, S. and Dash, A. K. and de Villiers, D. I. L. and Dhandha, J. and Dragovic, A. and Ely, J. A. and Fialkov, A. and Gessey-Jones, T. and Kirkham, C. and Kulkarni, G. and Magro, A. and Meerburg, P. D. and Mittal, S. and Molnar, D. and Patel, R. S. and Pattison, J. H. N. and Pegwal, S. and Pieterse, C. M. and Pritchard, J. R. and Rajpoot, G. M. Z. and Razavi-Ghods, N. and Robins, D. and Roque, I. L. V. and Saxena, A. and Scheutwinkel, K. H. and Shen, E. and Sims, P. H. and Spinelli, M. and Tutt, Jacob L. and Zhu, J.},
+  title   = {Scalable Bayesian data curation for next-generation radio experiments},
+  journal = {arXiv e-prints},
+  year    = {2026},
+  eprint  = {2606.16525},
+  arxiv   = {2606.16525},
+  archivePrefix = {arXiv},
+  primaryClass  = {astro-ph.IM},
+  pdf     = {https://arxiv.org/pdf/2606.16525},
+  abstract = {Next-generation radio telescopes produce data volumes that preclude manual quality assessment, yet data curation remains essential for science. We present a general, fully automatic Bayesian anomaly-detection method for radio science experiments in which data curation is performed inside the inference: a latent anomaly indicator is marginalised in the likelihood rather than converted into an external pre-flag. Implemented in JAX with GPU-accelerated inference, the pipeline assigns probabilistic data-curation scores without prior knowledge and requires no thresholds, manual inspection, or subjective decisions. We demonstrate the method on the Radio Experiment for the Analysis of Cosmic Hydrogen (REACH), applying it to 4655 observations (one year of REACH data). The pipeline assigns scores across time and frequency, enabling identification of the optimal observations to carry forward into scientific inference while reducing the risk that contaminated data bias the result. In doing so, it simultaneously recovers weather-driven systematics, instrument-component drifts, and narrow-band radio-frequency interference, while revealing complex dependencies between data quality and environmental or instrumental state that would be difficult to uncover by manual curation alone. This turns data curation from an external manual bottleneck into autonomous, inference-level infrastructure for the Square Kilometre Array era.},
+  author_role = {collaboration}
+}
+
+@article{Tutt2026JAXMg,
+  author  = {Tutt, Jacob and Wiersema, Roeland},
+  title   = {{JAXMg}: A multi-{GPU} linear solver in {JAX}},
+  journal = {arXiv e-prints},
+  year    = {2026},
+  eprint  = {2601.14466},
+  arxiv   = {2601.14466},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.DC},
+  pdf     = {https://arxiv.org/pdf/2601.14466},
+  abstract = {Solving large dense linear systems and eigenvalue problems is a core requirement in many areas of scientific computing, but scaling these operations beyond a single GPU remains challenging within modern programming frameworks. While highly optimized multi-GPU solver libraries exist, they are typically difficult to integrate into composable, just-in-time compiled Python workflows. JAXMg provides distributed dense linear algebra for JAX, enabling linear solves and decompositions for matrices that exceed single-GPU memory limits. By interfacing JAX with NVIDIA's cuSOLVERMp through an XLA Foreign Function Interface, JAXMg exposes distributed GPU routines as JIT-compatible JAX primitives. This design allows scalable linear algebra to be embedded directly within JAX programs, preserving composability with JAX transformations and enabling multi-GPU and multi-node execution in end-to-end scientific workflows.},
+  author_role = {first}
 }

@@ -307,7 +307,7 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
-    first_author,
+    author_role,
     google_scholar_id,
     html,
     inspirehep_id,
