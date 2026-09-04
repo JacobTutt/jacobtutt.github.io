@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/papers/";
           },
+        },{id: "nav-code",
+          title: "Code",
+          description: "Selected research software for scientific computing and 21-cm cosmology.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/code/";
+          },
         },{id: "nav-talks",
           title: "Talks",
           description: "Talks and presentations.",
