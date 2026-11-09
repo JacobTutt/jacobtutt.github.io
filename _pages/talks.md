@@ -11,8 +11,8 @@ nav_order: 4
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="publications talks-timeline">
 
-{% bibliography --file talks %}
+{% bibliography --file talks --template talk --group_by none %}
 
 </div>

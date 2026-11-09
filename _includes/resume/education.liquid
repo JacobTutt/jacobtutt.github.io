@@ -47,6 +47,16 @@
               </li>
             {% endfor %}
           </ul>
+          {% if content.awards %}
+            <h6 class="ml-1 ml-md-4 cv-subtitle">Awards &amp; Funding</h6>
+            <ul class="items">
+              {% for item in content.awards %}
+                <li>
+                  <span class="item">{{ item }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </div>
       </div>
     </li>

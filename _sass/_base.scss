@@ -521,6 +521,18 @@ footer.sticky-bottom {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
       }
+
+      // match bullet text to the 0.95rem institution/summary lines
+      ul.items {
+        font-size: 0.95rem;
+      }
+
+      .cv-subtitle {
+        font-size: 0.95rem;
+        font-weight: 600;
+        margin-top: 0.5rem;
+        margin-bottom: 0.25rem;
+      }
     }
   }
 }
@@ -735,7 +747,11 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
+      // uniform thumbnail box: every preview is stretched to fill 16:9
       .preview {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: fill;
       }
 
       .abbr {
@@ -1421,5 +1437,155 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+// Talks timeline (_pages/talks.md, _layouts/talk.liquid)
+
+.publications.talks-timeline ol.bibliography {
+  margin-top: 1.5rem;
+
+  li {
+    margin-bottom: 0;
+  }
+
+  li:last-child .talk-body {
+    border-left-color: transparent;
+  }
+}
+
+.talk-item {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.talk-date {
+  flex: 0 0 5rem;
+  text-align: right;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  padding-top: 0.15rem;
+  white-space: nowrap;
+}
+
+.talk-body {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  padding: 0 0 1.75rem 1.5rem;
+  border-left: 2px solid var(--global-divider-color);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 0.3rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--global-theme-color);
+    box-shadow: 0 0 0 3px var(--global-bg-color);
+  }
+
+  .talk-meta {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.2rem;
+  }
+
+  .links {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .talk-item {
+    gap: 0.75rem;
+  }
+
+  .talk-date {
+    flex-basis: 3.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+// Zoomed publication previews keep the figure's true proportions
+// (the thumbnail itself is stretched to 16:9 above)
+img.preview.medium-zoom-image--opened {
+  object-fit: contain !important;
+  background-color: transparent !important;
+}
+
+// medium-zoom sets will-change: transform on the enlarged image, which makes
+// browsers keep the small thumbnail-sized raster and scale it up (blurry).
+// Letting the browser re-render at the zoomed size keeps figures sharp.
+.medium-zoom-image--opened {
+  will-change: auto !important;
+}
+
+// Code page (_pages/code.md): stacked entries separated by rules
+
+.code-entry {
+  padding: 0.5rem 0 0.75rem;
+
+  .code-img {
+    text-align: center;
+    margin-bottom: 1rem;
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      width: auto !important;
+      max-width: 100%;
+      max-height: 280px;
+      border-radius: 4px;
+    }
+  }
+
+  h3 {
+    margin-bottom: 0.35rem;
+  }
+
+  .code-links {
+    margin-bottom: 0.2rem;
+
+    .code-badge img {
+      height: 20px;
+      vertical-align: -4px;
+    }
+
+    i {
+      color: var(--global-text-color-light);
+      margin-right: 0.15rem;
+    }
+  }
+
+  .code-stack {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.75rem;
+  }
+
+  .code-papers-title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  ul.code-papers {
+    padding-left: 1.2rem;
+    font-size: 0.95rem;
+
+    li {
+      margin-bottom: 0.3rem;
+    }
+
+    .code-venue {
+      color: var(--global-text-color-light);
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
   }
 }

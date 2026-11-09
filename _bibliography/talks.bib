@@ -1,5 +1,65 @@
 ---
 ---
+@misc{Tutt2026EmulatorGuide,
+  author       = {Tutt, Jacob},
+  title        = {Machine Learning Emulators for Fast Bayesian Inference in 21-cm Cosmology},
+  howpublished = {Tutorial at the Cosmic Dawn Lab},
+  address      = {Cambridge, UK},
+  year         = {2026},
+  month        = nov,
+  note         = {Cosmic Dawn Lab, University of Cambridge, UK},
+  website      = {https://www.cosmicdawnlab.com}
+}
+
+@misc{Tutt2026LatentSpace,
+  author       = {Tutt, Jacob},
+  title        = {An Optimal Latent Space for Uncertainty Quantification and Evidence Evaluation in 21-cm Cosmology},
+  howpublished = {Presentation at the 21-cm Meeting Series},
+  address      = {Cambridge, UK},
+  year         = {2026},
+  month        = oct,
+  note         = {21-cm Meeting Series, University of Cambridge, UK},
+  website      = {https://www.kicc.cam.ac.uk/research/RTreionization},
+  selected     = {true}
+}
+
+@misc{Tutt2026Global21cmWorkshop,
+  author       = {Tutt, Jacob},
+  title        = {GPU-Accelerated Bayesian Forward Models: Uncertainty Quantification for Global 21-cm Cosmology},
+  howpublished = {Presentation at the IX Global 21-cm Workshop},
+  institution  = {University of Malta},
+  address      = {Valletta, Malta},
+  year         = {2026},
+  month        = sep,
+  note         = {IX Global 21-cm Workshop, University of Malta, Valletta, Malta},
+  website      = {https://sites.google.com/view/ixglobal21cmworkshop/home},
+  selected     = {true}
+}
+
+@misc{Tutt2026REACHMeeting,
+  author       = {Tutt, Jacob},
+  title        = {Modern Accelerators for Next-Gen Inference: End-to-End Uncertainty Quantification for Global 21-cm Cosmology},
+  howpublished = {Presentation at the REACH General Meeting 2026},
+  institution  = {University of Malta},
+  address      = {Valletta, Malta},
+  year         = {2026},
+  month        = sep,
+  note         = {REACH General Meeting, University of Malta, Valletta, Malta},
+  website      = {https://www.um.edu.mt/events/reachgeneralmeeting2026/}
+}
+
+@misc{Tutt2026KavliTalk,
+  author       = {Tutt, Jacob},
+  title        = {Uncertainty Quantification in 21-cm Cosmology: Changing What Is Tractable with Modern Accelerators},
+  howpublished = {Presentation at the Kavli Astrophysics Symposium 2026},
+  institution  = {Kavli Institute for Cosmology, University of Cambridge},
+  address      = {Cambridge, UK},
+  year         = {2026},
+  month        = sep,
+  note         = {Kavli Astrophysics Symposium 2026, Kavli Institute for Cosmology, Cambridge, UK},
+  website      = {https://sites.google.com/cam.ac.uk/kas2026/home}
+}
+
 @misc{Tutt2026AIRadioAstronomy,
   author       = {Tutt, Jacob},
   title        = {LLM-Era Compute for 21-cm Cosmology: Accelerating Bayesian Inference for the SKA Era},
@@ -8,11 +68,8 @@
   address      = {Edinburgh, UK},
   year         = {2026},
   month        = mar,
-  note         = {AI/ML in Radio Astronomy Workshop, 19 March 2026},
-  abstract     = {Driven by the rapid development of large language models, sustained investment in GPU/TPU infrastructure and associated software stacks is reshaping what is computationally feasible across data-intensive science. In radio cosmology, end-to-end simulation and inference workloads naturally map into the language of structured linear algebra, with intrinsic batch dimensions spanning time samples, frequency channels, and interferometric baselines. This alignment makes accelerator architectures not simply convenient, but essential for scaling these analyses to the data volumes and model complexity demanded by next-generation experiments such as the SKA. Using the global 21-cm experiment REACH as a case study, we demonstrate the advantages of implementing forward models and likelihood evaluations in JAX and coupling them to Bayesian sampling frameworks, such as BlackJAX. By expressing the computation as a differentiable array program that can be JIT-compiled, kernel-fused, and parallelised on GPU hardware, we achieve speedups of order $10^2$ relative to traditional CPU-based workflows. Crucially, the accelerated likelihood exhibits near-constant wall clock time over a wide range of data volume and model complexity. We show this work has already made previously impractical regimes feasible on realistic compute budgets and timescales, including large time-resolved analyses, evidence-driven model optimisation, and large-scale simulation-based inference (SBI). Furthermore, JAX's automatic differentiation provides exact gradients of the forward model and likelihood with minimal additional implementation effort, enabling practical gradient-informed samplers for high-dimensional analyses. We outline ongoing work to extend these ideas to interferometric 21-cm power-spectrum inference within the BayesEoR framework, where analyses are expected to involve order thousands of parameters and terabyte-scale datasets.},
-  website      = {https://www.roe.ac.uk/workshop/ai-radio-astronomy/},
-  preview      = {ska_ai_workshop.jpeg},
-  selected     = {true}
+  note         = {AI/ML in Radio Astronomy Workshop, Royal Observatory Edinburgh, UK},
+  website      = {https://www.roe.ac.uk/workshop/ai-radio-astronomy/}
 }
 
 @misc{Tutt2025REACHGPU,
@@ -23,7 +80,5 @@
   address      = {Cambridge, UK},
   year         = {2025},
   month        = nov,
-  note         = {REACH Annual Meeting, 23 November 2025},
-  preview = {reach-logo.jpeg},
-  selected={true}
+  note         = {REACH Annual Meeting, Cambridge, UK}
 }

@@ -4,7 +4,7 @@ permalink: /projects/
 title: Projects
 description: A collection of my projects and courseworks from throughout my BSc and MPhil.
 nav: true
-nav_order: 1
+nav_order: 5
 ---
 
 <!-- _pages/publications.md -->

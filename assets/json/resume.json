@@ -1,58 +1,52 @@
 {
   "basics": {
     "name": "Jacob Tutt",
-    "label": "PhD Candidate | 21cm Cosmology | Bayesian Machine Learning",
+    "label": "PhD Candidate | Bayesian Inference | Machine Learning | Distributed GPU Computing",
     "image": "",
     "email": "jlt67@cam.ac.uk",
     "url": "https://jacobtutt.github.io",
-    "summary": "Astrophysics PhD candidate at the University of Cambridge, specialising in Bayesian inference, machine learning, and high-performance computing. My research focuses on developing scalable statistical and computational methods to extract cosmological insights from large-scale datasets, with a particular emphasis on the 21cm line observations in the emerging Era of Exascale Radio Astronomy."
+    "summary": "Second-year PhD candidate at the University of Cambridge, combining the latest statistical and probabilistic machine learning methods with modern hardware accelerators to solve previously intractable inference problems in cosmology. I develop physically motivated forward models and scalable inference methods with rigorous Bayesian uncertainty quantification, applied to global 21-cm cosmology with REACH and to next-generation interferometers such as the SKA Observatory."
   },
-  "work": [
-    {
-      "name": "Cavendish Astrophysics, University of Cambridge",
-      "position": "PhD Researcher",
-      "url": "https://www.phy.cam.ac.uk/",
-      "startDate": "2025-10-01",
-      "endDate": "Present",
-      "highlights": ["Research focused on developing advanced Bayesian machine learning pipelines for radio cosmology", "Particularly the detection of the 21cm signal redshifted from the Cosmic Dawn and Epoch of Reionisation", "Supervised by Dr Eloy de Lera Acedo"]
-    }, 
-    {
-      "name": "University of Cambridge",
-      "position": "Supervisor",
-      "url": "https://www.phy.cam.ac.uk/",
-      "startDate": "2025-10-01",
-      "endDate": "Present",
-      "highlights": ["Natural Sciences, Physics 1A - supervising small teaching groups of undergraduates", "MPhil Data Intensive Science, Statistical Methods - supervising graduate students in statistical theory, probabilistic modelling, and scientific inference for data-intensive applications.", "MPhil Data Intensive Science, Advanced Statistical Methods - supervising graduate students in Bayesian modelling and computation, including Monte Carlo methods, MCMC, nested sampling, and model comparison for scientific data analysis."] 
-    }, 
-    {
-      "name": "Institute of Astronomy, University of Cambridge",
-      "position": "Graduate Researcher",
-      "url": "https://www.phy.cam.ac.uk/",
-      "startDate": "2024-10-01",
-      "endDate": "2025-09-31",
-      "highlights": ["Research focused on optimisation of probabilistic unsupervised machine learning methods for near-field cosmology" , "Indentifying stellar subpopulations from within chemo-dynamical datasets constructed from GAIA, APOGEE and GALAH",  "Enabling robust, uncertainty-aware insights into the formation and assembly history of the Milky Way", "Building pipelines designed for the volume and dimensionality offered by the next generation of surveys such as WEAVE and 4MOST"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Cambridge, UK",
+      "institution": "Cavendish Radio Astronomy and Cosmology Group, Kavli Institute for Cosmology, University of Cambridge",
       "location": "Cambridge, UK",
-      "url": "https://www.astro.phy.cam.ac.uk/",
-      "area": "",
+      "url": "https://www.cavendishradiocosmology.com",
+      "area": "Combining the latest statistical and probabilistic machine learning methods with modern hardware accelerators and distributed computing to solve previously intractable inference problems in cosmology.",
       "studyType": "PhD Astrophysics",
       "startDate": "2025-10-01",
       "endDate": "Present",
-      "score": ""
+      "score": "",
+      "courses": [
+        "Developing physically motivated forward models, spanning astrophysical simulations to computational electromagnetics, and scalable inference methods with rigorous Bayesian uncertainty quantification for 21-cm cosmology",
+        "Selected for the first cohort of the Cavendish <a href=\"https://www.phy.cam.ac.uk/news/new-frontiers-programme-brings-ai-native-workflows-to-physics-phds/\">Frontiers Programme | AI for Scientific Discovery</a> (2026)",
+        "Supervised by Prof Eloy de Lera Acedo and Dr Dominic Anstey"
+      ],
+      "awards": [
+        "<strong>Harding Distinguished Postgraduate Scholar</strong> (2025): fully funded PhD scholarship supporting academically outstanding University of Cambridge students across all disciplines",
+        "<strong>Cavendish Scholarship</strong> (2025): internal scholarship awarded by the Cavendish Laboratory to the top-ranked applicants to the PhD in Physics programme",
+        "<strong>UKRI AIRR Gateway Compute Grants</strong> (2026): primary researcher on three awards totalling up to 30,000 GPU hours, valued at c.£100,000",
+        "<strong>UKRI Travel Grant</strong> (2026): UKRI Digital Research Infrastructure funding to present at the AI in Radio Astronomy Workshop, Royal Observatory Edinburgh",
+        "<strong>Postgraduate Research Fund Award</strong> (2026): Jesus College travel funding to present research at two international conferences"
+      ]
     },
     {
-      "institution": "University of Cambridge, UK",
+      "institution": "University of Cambridge",
       "location": "Cambridge, UK",
       "url": "https://mphildis.bigdata.cam.ac.uk",
       "studyType": "MPhil Data Intensive Science",
       "startDate": "2024-10-01",
       "endDate": "2025-09-31",
-      "area": "Graduate course jointly taught across DAMTP, the Institute of Astronomy, and the Cavendish Laboratory, covering statistical inference, deep learning, and advanced software development for large-scale astronomical data. Focusing on applications to theoretical astrophysics including galactic archaeology, cosmology, and gravitational waves.",
-      "courses": ["Grade: High Distinction (85%)"]
+      "area": "Graduate course jointly taught by the Department of Applied Mathematics and Theoretical Physics, the Department of Physics and the Institute of Astronomy, covering statistical inference, deep learning, and advanced software development for large-scale astronomical data. Focusing on applications to theoretical astrophysics including galactic archaeology, cosmology, and gravitational waves.",
+      "courses": [
+        "Grade: High Distinction (85%)",
+        "Research project: probabilistic unsupervised machine learning for near-field cosmology, identifying stellar subpopulations in chemo-dynamical datasets from Gaia, APOGEE and GALAH to study the formation and assembly history of the Milky Way",
+        "Built pipelines designed for the volume and dimensionality of next-generation surveys such as WEAVE and 4MOST"
+      ],
+      "awards": [
+        "<strong>Jesus College Scholarship</strong> (2025): awarded for outstanding academic achievement in the MPhil",
+        "<strong>Defence STEM Undergraduate Scholarship</strong> (2023): awarded by the British Army for leadership performance at the four-day Army Officer Selection Board"
+      ]
     },
     {
       "institution": "Durham University",
@@ -62,7 +56,11 @@
       "startDate": "2021-10-01",
       "endDate": "2024-07-01",
       "area": "Took modules in pure mathematics, theoretical physics, and astrophysics, complemented by research projects in computational modelling, statistical inference, and observational techniques conducted within the Centre for Extragalactic Astronomy and the Institute for Computational Cosmology.",
-      "courses": ["Grade: First Class (4th in Cohort)"]
+      "courses": ["Grade: First Class (4th in Cohort)"],
+      "awards": [
+        "<strong>Durham Physics Award</strong> (2023): awarded for outstanding first-class achievement in BSc Physics",
+        "<strong>Defence STEM Undergraduate Scholarship</strong> (2023): awarded by the British Army for leadership performance at the four-day Army Officer Selection Board"
+      ]
     },
     {
       "institution": "Churcher’s College",
@@ -71,57 +69,139 @@
       "studyType": "A-Level",
       "startDate": "2019-09-01",
       "endDate": "2021-08-01",
-      "courses": ["Grades: 4*s"]
+      "courses": ["Grades: 4*s"],
+      "awards": [
+        "<strong>Academic Scholarship</strong>: awarded by Churcher's College for academic excellence",
+        "<strong>Horan Prize for Mathematics</strong>: awarded for outstanding achievement in mathematics"
+      ]
     }
   ],
-  "awards": [
+  "teaching": [
     {
-      "title": "Postgraduate Research Fund Award",
-      "date": "2026-08-01",
-      "awarder": "Jesus College, University of Cambridge",
-      "summary": "Travel funding to present research on uncertainty quantification and surrogate-enabled end-to-end Bayesian forward modelling for global 21-cm cosmology at two international conferences."
+      "name": "MPhil in Data Intensive Science, University of Cambridge",
+      "position": "Graduate Supervisor, M1 Machine Learning",
+      "url": "https://mphildis.bigdata.cam.ac.uk",
+      "location": "Cambridge, UK",
+      "startDate": "2026-10-01",
+      "endDate": "Present",
+      "highlights": [
+        "Statistical learning theory, optimisation and deep learning, with an emphasis on principled model design and generalisation in scientific applications."
+      ]
     },
     {
-      "title": "UKRI Travel Grant",
-      "date": "2026-03-01",
-      "awarder": "UKRI Digital Research Infrastructure (DRI)",
-      "summary": "Funding to present work on GPU-accelerated Bayesian inference for SKA-era 21-cm cosmology at the AI in Radio Astronomy Workshop, Royal Observatory Edinburgh."
+      "name": "MPhil in Data Intensive Science, University of Cambridge",
+      "position": "Graduate Supervisor, C1 Research Computing",
+      "url": "https://mphildis.bigdata.cam.ac.uk",
+      "location": "Cambridge, UK",
+      "startDate": "2026-10-01",
+      "endDate": "Present",
+      "highlights": [
+        "Scientific software engineering and research computing, covering numerical methods, algorithmic complexity and computational efficiency, and the development of robust, reproducible research software."
+      ]
     },
     {
-      "title": "Jesus College Scholarship",
-      "date": "2025-12-01",
-      "awarder": "Jesus College, University of Cambridge",
-      "summary": "Recognised for outstanding academic achievement in the MPhil."
+      "name": "MPhil in Data Intensive Science, University of Cambridge",
+      "position": "Graduate Supervisor, S1 Statistical Methods",
+      "url": "https://mphildis.bigdata.cam.ac.uk",
+      "location": "Cambridge, UK",
+      "startDate": "2025-10-01",
+      "endDate": "Present",
+      "highlights": [
+        "Classical and Bayesian statistical inference, spanning estimation theory, hypothesis testing, uncertainty quantification and forward modelling for data-intensive science."
+      ]
     },
     {
-      "title": "Cavendish Scholarship",
-      "date": "2025-10-01",
-      "awarder": "Cavendish Laboratory, University of Cambridge",
-      "summary": "Selected for the prestigious Cavendish Scholarship Programme."
+      "name": "MPhil in Data Intensive Science, University of Cambridge",
+      "position": "Graduate Supervisor, S2 Advanced Statistical Methods",
+      "url": "https://mphildis.bigdata.cam.ac.uk",
+      "location": "Cambridge, UK",
+      "startDate": "2025-10-01",
+      "endDate": "Present",
+      "highlights": [
+        "Advanced Bayesian inference and probabilistic computation, including stochastic sampling algorithms, Bayesian non-parametrics and Bayesian model comparison."
+      ]
     },
     {
-      "title": "Harding Distinguished Postgraduate Scholar",
-      "date": "2025-10-01",
-      "awarder": "University of Cambridge",
-      "summary": "Selected for the Harding Distinguished Postgraduate Scholars Programme."
+      "name": "Natural Sciences Tripos, University of Cambridge",
+      "position": "Undergraduate Supervisor, Part IA Physics",
+      "url": "https://www.phy.cam.ac.uk/",
+      "location": "Cambridge, UK",
+      "startDate": "2025-10-01",
+      "endDate": "Present",
+      "highlights": [
+        "Small-group supervisions for first-year undergraduates across the core of classical physics, including mechanics, special relativity, oscillations, waves and fields."
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "4th Battalion, The Parachute Regiment, British Army",
+      "position": "Reserve Officer Cadet",
+      "url": "https://www.army.mod.uk/",
+      "location": "UK",
+      "startDate": "2022-09-01",
+      "endDate": "Present",
+      "highlights": [
+        "Currently undertaking the Reserve Commissioning Course at the Royal Military Academy Sandhurst.",
+        "Awarded the Defence STEM Undergraduate Scholarship for leadership performance at the Army Officer Selection Board."
+      ]
     },
     {
-      "title": "Durham Physics Award",
-      "date": "2023-07-01",
-      "awarder": "Department of Physics, Durham University",
-      "summary": "Awarded for Outstanding First-Class Achievement in BSc Physics."
+      "name": "Entrepreneur First",
+      "position": "Investment Fellow",
+      "url": "https://www.joinef.com/",
+      "location": "Cambridge, UK",
+      "startDate": "2026-11-01",
+      "endDate": "Present",
+      "highlights": [
+        "Supporting Entrepreneur First's investment team in identifying and assessing exceptional technical founders and early-stage deep-tech opportunities across Cambridge."
+      ]
+    },
+    {
+      "name": "G-Research",
+      "position": "Spring into Quant Finance",
+      "url": "https://www.gresearch.com/",
+      "location": "London, UK",
+      "startDate": "2026-03-01",
+      "endDate": "2026-04-30",
+      "highlights": [
+        "Selected from a graduate applicant pool with a <1% acceptance rate for G-Research's quantitative research spring internship programme."
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Programming",
-      "level": "Experienced",
-      "keywords": ["Python", "PyTorch", "TensorFlow", "Jax", "Bash", "Git"]
+      "name": "Statistics & Inference",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "Bayesian Inference & Model Comparison",
+        "Nested Sampling & MCMC",
+        "Simulation-Based Inference",
+        "Uncertainty Quantification",
+        "Gaussian Processes"
+      ]
     },
     {
       "name": "Machine Learning",
-      "level": "Experienced",
-      "keywords": ["Deep Learning", "Unsupervised Learning", "Natural Language Processing", "Generative Models (VAE, Diffusion, etc)", "Fine-Tuning"]
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Neural Emulation & Surrogate Modelling",
+        "Low-Rank & Latent-Space Methods",
+        "Deep Learning",
+        "Generative Models (VAE, Diffusion)",
+        "Unsupervised Learning",
+        "Natural Language Processing & Fine-Tuning (LoRA)"
+      ]
+    },
+    {
+      "name": "Distributed & GPU Computing",
+      "icon": "fa-solid fa-server",
+      "keywords": ["Multi-GPU / Multi-Node JAX (JIT, Sharding)", "XLA Foreign Function Interface", "C++ / CUDA", "NVIDIA cuSOLVERMp", "HPC Clusters"]
+    },
+    {
+      "name": "Programming",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "JAX", "PyTorch", "TensorFlow", "C++ / CUDA", "Bash & Git"]
     }
   ]
 }

@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Bayesian inference, machine learning, JAX, distributed GPU computing, numerical linear algebra, 21-cm cosmology, radio astronomy, University of Cambridge
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.jpeg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -630,6 +630,6 @@ jekyll_get_json:
 jsonresume:
   - basics
   - education
+  - teaching
   - work
-  - awards
   - skills
