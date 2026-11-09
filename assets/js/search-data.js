@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "A collection of my projects and courseworks from throughout my BSc and MPhil.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-papers",
           title: "Papers",
           description: "Papers and preprints.",
@@ -32,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-code",
           title: "Code",
-          description: "Selected research software for scientific computing and 21-cm cosmology.",
+          description: "Research software for scalable inference, distributed GPU linear algebra and 21-cm cosmology.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/code/";
@@ -43,6 +36,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "A collection of my projects and courseworks from throughout my BSc and MPhil.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
           },
         },{id: "news-joined-the-radio-astronomy-and-cosmology-group-at-the-cavendish-laboratory-university-of-cambridge-as-a-astrophysics-phd-candidate-under-the-supervision-of-dr-eloy-de-lera-acedo",
           title: 'Joined the Radio Astronomy and Cosmology Group at the Cavendish Laboratory, University of...',
@@ -76,18 +76,11 @@ ninja.data = [{
           window.open("https://www.kicc.cam.ac.uk/staff/jacob-tutt-0", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
+        id: 'social-inspire',
+        title: 'Inspire HEP',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0009-0002-5358-4292", "_blank");
-        },
-      },{
-        id: 'social-arxiv_url',
-        title: 'Arxiv_url',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
+          window.open("https://inspirehep.net/authors/3178330", "_blank");
         },
       },{
       id: 'light-theme',
