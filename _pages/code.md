@@ -19,8 +19,10 @@ Below are some of the research software projects I develop and contribute to. A 
   <p class="code-links">
     <i class="fa-brands fa-github"></i> <a href="https://github.com/flatironinstitute/jaxmg">github/flatironinstitute/jaxmg</a>
     &nbsp;|&nbsp; <i class="fa-solid fa-book"></i> <a href="https://flatironinstitute.github.io/jaxmg/latest/">docs</a>
+    &nbsp;|&nbsp; <i class="fa-brands fa-python"></i> <a href="https://pypi.org/project/jaxmg/">PyPI</a>
     &nbsp;|&nbsp; <i class="fa-solid fa-file-lines"></i> <a href="https://arxiv.org/abs/2601.14466">paper</a>
     &nbsp;&nbsp;<a href="https://github.com/flatironinstitute/jaxmg/stargazers" class="code-badge"><img src="https://img.shields.io/github/stars/flatironinstitute/jaxmg?style=social" alt="GitHub stars"></a>
+    &nbsp;<a href="https://pypi.org/project/jaxmg/" class="code-badge"><img src="https://img.shields.io/badge/downloads-22k-blue" alt="22k PyPI downloads"></a>
   </p>
   <p class="code-stack">Python · JAX · C++/CUDA · XLA FFI</p>
   <p>JAXMg started when both Roeland Wiersema at the Flatiron Institute and I found ourselves bottlenecked by the same problem in completely different domains of computational physics. Roeland needed to solve the large dense linear systems that arise in variational Monte Carlo for quantum many-body physics (see e.g. <a href="https://arxiv.org/abs/2603.18148">Wan, Wiersema &amp; Zhang 2026</a>), while I needed them for large-scale Bayesian inference workflows in cosmology. In both cases, there was no way to scale these solves across multiple GPUs without leaving JAX.</p>

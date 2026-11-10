@@ -91,6 +91,8 @@ layout: default
             <h3 class="card-title font-weight-medium">
               {% if data[0] == 'awards' %}
                 Awards and Funding
+              {% elsif data[0] == 'work' %}
+                Professional Experience
               {% else %}
                 {{ data[0] | capitalize }}
               {% endif %}

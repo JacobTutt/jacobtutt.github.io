@@ -630,6 +630,6 @@ jekyll_get_json:
 jsonresume:
   - basics
   - education
-  - teaching
   - work
+  - teaching
   - skills
