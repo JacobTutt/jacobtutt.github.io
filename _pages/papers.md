@@ -2,7 +2,7 @@
 layout: page
 permalink: /papers/
 title: Papers
-description: Papers and preprints.
+description: Research papers, preprints and science writing.
 nav: true
 nav_order: 2
 ---
@@ -26,3 +26,9 @@ nav_order: 2
 {% bibliography --file papers --query @*[author_role=collaboration] %}
 
 </div>
+
+## Science writing
+
+### [Cosmology’s Needle in a Haystack: Tuning Into the Faintest Whisper of the Early Universe]({{ '/assets/pdf/tutt_bevins_2026_bluesci.pdf' | relative_url }})
+
+Jacob Tutt and Harry Bevins. _BlueSci_, Issue 63, 2026, pp. 44–45.
