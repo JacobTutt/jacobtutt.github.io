@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our latest work on low-dimensional representations of antenna beams and Bayesian marginalisation of beam uncertainty is now on [arXiv](https://arxiv.org/abs/2608.18962).
+Our latest work on electromagnetic beam patterns and Bayesian marginalisation of beam uncertainty is now on [arXiv](https://arxiv.org/abs/2608.18962).

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <em>Astrophysics PhD Candidate</em> <br> <em><a href=https://www.cavendishradiocosmology.com/>Radio Astronomy and Cosmology</a></em> <br> <em><a href=https://www.kicc.cam.ac.uk/>Kavli Institute for Cosmology</a></em> <br> <em><a href=https://www.phy.cam.ac.uk/>Cavendish Laboratory, University of Cambridge</a></em>
+subtitle: <em>AI4Science PhD Candidate</em> <br> <em><a href=https://www.cavendishradiocosmology.com/>Radio Astronomy and Cosmology</a></em> <br> <em><a href=https://www.kicc.cam.ac.uk/>Kavli Institute for Cosmology</a></em> <br> <em><a href=https://www.phy.cam.ac.uk/>Cavendish Laboratory, University of Cambridge</a></em>
 
 profile:
   align: right
@@ -30,9 +30,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year PhD candidate in the [Cavendish Radio Astronomy and Cosmology](https://www.cavendishradiocosmology.com) Group at the [Kavli Institute for Cosmology](https://www.kicc.cam.ac.uk), University of Cambridge, funded by the [Harding Distinguished Scholars Programme](https://www.hardingscholars.fund.cam.ac.uk). My research looks at how the latest statistical and probabilistic machine learning methods, combined with distributed, hardware-accelerated computing, can tackle previously intractable inference problems in physics.
+I am a second-year PhD candidate in the [Cavendish Radio Astronomy and Cosmology](https://www.cavendishradiocosmology.com) Group at the [Kavli Institute for Cosmology](https://www.kicc.cam.ac.uk), University of Cambridge, funded by the [Harding Distinguished Scholars Programme](https://www.hardingscholars.fund.cam.ac.uk). My research looks at how the latest statistical and probabilistic machine learning methods, combined with distributed computing, can tackle previously intractable inference problems in physics.
 
-My work is centred on answering questions about the cosmic dawn and reionisation, one of cosmology’s last observational frontiers. When did the first stars form, and what were they like? How did the first galaxies and black holes heat and ionise the hydrogen around them? And how did the Universe go from dark and neutral to the ionised, galaxy-filled cosmos we see today?
+My work is centred on answering questions about the cosmic dawn and the epoch of reionisation, one of cosmology’s last observational frontiers. When did the first stars form, and what were they like? How did the first galaxies and black holes heat and ionise the hydrogen around them? And how did the Universe go from dark and neutral to the ionised, galaxy-filled cosmos we see today?
 
 The 21-cm hyperfine transition of neutral hydrogen offers a direct window onto this era; however, detecting it is a notoriously difficult inference challenge for both global 21-cm experiments such as [REACH](https://www.reachtelescope.org) and interferometric arrays such as the upcoming [Square Kilometre Array Observatory](https://www.skao.int/en). In both cases, the signal lies buried beneath foregrounds many orders of magnitude brighter and is distorted by the complex electromagnetic response of the instrument, making its detection acutely sensitive to model misspecification. Tackling it requires both fast, accurate forward models and efficient methods to invert them. My work therefore develops physically motivated, differentiable and hardware-accelerated generative models that account for the relevant sources of uncertainty, spanning astrophysical simulations to computational electromagnetics. Alongside these, it also develops scalable inference methods that solve the resulting high-dimensional inverse problems with rigorous Bayesian uncertainty quantification. Ultimately, the aim is to extract the maximal scientific information from astronomical datasets, from broader cosmology to gravitational-wave astronomy. Beyond astrophysics, my interests lie more widely in scaling statistical and numerical methods across the sciences, both algorithmically and computationally, to ever larger datasets, parameter spaces and physical systems.
 

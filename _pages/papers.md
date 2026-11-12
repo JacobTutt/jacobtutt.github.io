@@ -25,10 +25,8 @@ nav_order: 2
 
 {% bibliography --file papers --query @*[author_role=collaboration] %}
 
+<h2>Science writing</h2>
+
+{% bibliography --file papers --query @*[author_role=science_writing] %}
+
 </div>
-
-## Science writing
-
-### [Cosmology’s Needle in a Haystack: Tuning Into the Faintest Whisper of the Early Universe]({{ '/assets/pdf/tutt_bevins_2026_bluesci.pdf' | relative_url }})
-
-Jacob Tutt and Harry Bevins. _BlueSci_, Issue 63, 2026, pp. 44–45.
