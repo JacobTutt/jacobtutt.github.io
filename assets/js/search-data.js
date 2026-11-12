@@ -44,7 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "news-joined-the-radio-astronomy-and-cosmology-group-at-the-cavendish-laboratory-university-of-cambridge-as-a-astrophysics-phd-candidate-under-the-supervision-of-dr-eloy-de-lera-acedo",
+        },{id: "news-joined-the-radio-astronomy-and-cosmology-group-at-the-cavendish-laboratory-university-of-cambridge-as-a-physics-phd-candidate-under-the-supervision-of-dr-eloy-de-lera-acedo",
           title: 'Joined the Radio Astronomy and Cosmology Group at the Cavendish Laboratory, University of...',
           description: "",
           section: "News",},{id: "news-harry-bevins-and-my-article-cosmology-s-needle-in-a-haystack-is-now-published-in-bluesci",
