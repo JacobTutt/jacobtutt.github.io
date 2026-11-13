@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-code",
           title: "Code",
-          description: "Research software for scalable inference, distributed GPU linear algebra and 21-cm cosmology.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/code/";
