@@ -2,7 +2,6 @@
 layout: page
 permalink: /code/
 title: Code
-description: Research software for scalable inference, distributed GPU linear algebra and 21-cm cosmology.
 nav: true
 nav_order: 3
 ---
@@ -41,8 +40,8 @@ Below are some of the research software projects I develop and contribute to. A 
     &nbsp;|&nbsp; <i class="fa-brands fa-github" aria-hidden="true"></i> <a href="https://github.com/JacobTutt/global-21cm-inference-benchmark">benchmark repository</a>
   </p>
   <p class="code-stack">Python · JAX · BlackJAX · Nested Sampling · Neural Emulation · Multi-GPU</p>
-  <p>Detecting the global 21-cm signal means pulling a signal of a few hundred millikelvin out from under foregrounds around ten thousand times brighter, all seen through an antenna whose response is never perfectly known. Doing that credibly means modelling and propagating all uncertainties through the whole observational chain, which with conventional simulators simply isn't feasible.</p>
-  <p>This pipeline makes it tractable for REACH by replacing each expensive simulator with a learned, physically motivated surrogate: a neural emulator for the cosmological signal, a multi-resolution foreground model anchored to radio sky maps, and an antenna beam compressed into a 100-dimensional latent space whose linearity lets its uncertainty be marginalised analytically. Together these run around 10<sup>7</sup> times faster than the original simulators, turning hundreds of CPU-years of analysis into about two GPU-days.</p>
+  <p>Detecting the global 21-cm signal requires separating a faint cosmological signal from radio foregrounds around ten thousand times brighter, observed through a complex and uncertain antenna response. Reliable inference therefore requires these contributions to be modelled jointly, propagating uncertainty through the full observational chain—a task that is computationally prohibitive with conventional simulators.</p>
+  <p>The REACH pipeline provides a flexible, differentiable and GPU-accelerated modelling and inference framework. Supported approaches include neural emulation of the cosmological signal, physics-informed foreground parameterisations and learned latent representations of antenna-beam uncertainty, with analytical marginalisation where the model structure permits. Coupled to GPU-accelerated nested sampling, this enables increasingly detailed uncertainty modelling and Bayesian model validation. In the configuration presented in our NeurIPS work, the combined forward model achieves a speed-up of 7.2 &times; 10<sup>7</sup> relative to the original simulators.</p>
   <p class="code-papers-title">Related papers</p>
   <ul class="code-papers">
     <li><a href="https://doi.org/10.1093/mnras/stag1101">Optimising Foreground Modelling for Global 21cm Cosmology with GPU-Accelerated Nested Sampling</a> <span class="code-venue">MNRAS, 2026</span></li>
