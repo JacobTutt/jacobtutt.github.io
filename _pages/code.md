@@ -44,7 +44,7 @@ Below are some of the research software projects I develop and contribute to. A 
   <p>This accelerated version combines JAXMg's distributed linear algebra with a statistically optimal, observation-specific latent space. A noise-informed Karhunen–Loève decomposition retains only the foreground modes resolvable above the thermal noise, so the dimensionality reflects the information content of the data rather than the resolution of the model. Constructed once, the basis is amortised across subsequent likelihood evaluations, reducing the full-field coefficient space from over 300,000 to under 10,000. This enables power-spectrum recovery and Bayesian evidence evaluation in around 20 GPU-minutes, with an estimated 830-fold computational saving relative to the unreduced GPU implementation.</p>
   <p class="code-papers-title">Related papers</p>
   <ul class="code-papers">
-    <li>An Optimal Latent Space for Amortised Bayesian Uncertainty Quantification and Evidence Evaluation in Interferometric Visibilities <span class="code-venue">In preparation</span></li>
+    <li>A Latent Space for Amortised Bayesian Uncertainty Quantification and Evidence Evaluation in Interferometric Visibilities <span class="code-venue">In preparation</span></li>
   </ul>
 </div>
 
