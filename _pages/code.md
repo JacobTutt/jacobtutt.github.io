@@ -58,10 +58,10 @@ Below are some of the research software projects I develop and contribute to. A 
   <div class="code-img">
     {% include figure.liquid loading="eager" path="assets/img/publication_preview/bayeseor_pipeline.png" alt="BayesEoR forward model and inference workflow" zoomable=true avoid_scaling=true %}
   </div>
-  <h3>BayesEoR-v2</h3>
+  <h3>BayesEoR-JAX</h3>
   <p class="code-links">
-    <i class="fa-solid fa-lock"></i> private repository (active research)
-    &nbsp;|&nbsp; <i class="fa-brands fa-github"></i> <a href="https://github.com/PSims/BayesEoR">original BayesEoR</a>
+    <i class="fa-brands fa-github"></i> <a href="https://github.com/JacobTutt/BayesEoR-JAX">github/JacobTutt/BayesEoR-JAX</a>
+    &nbsp;|&nbsp; <i class="fa-solid fa-book"></i> <a href="https://jacobtutt.github.io/BayesEoR-JAX/dev/">docs</a>
   </p>
   <p class="code-stack">Python · JAX · JAXMg · Nested Sampling · Distributed Linear Algebra · Multi-GPU</p>
   <p>BayesEoR is a Bayesian forward-modelling framework for recovering the cosmological 21-cm power spectrum from interferometric observations. It models the cosmological signal and radio foregrounds jointly through the instrument response, analytically marginalising high-dimensional nuisance parameters to recover the power spectrum and Bayesian evidence for model comparison.</p>
