@@ -32,6 +32,26 @@ Below are some of the research software projects I develop and contribute to. A 
 
 <div class="code-entry">
   <div class="code-img">
+    {% include figure.liquid loading="eager" path="assets/img/publication_preview/bayeseor_pipeline.png" alt="BayesEoR forward model and inference workflow" zoomable=true avoid_scaling=true %}
+  </div>
+  <h3>BayesEoR-JAX</h3>
+  <p class="code-links">
+    <i class="fa-brands fa-github"></i> <a href="https://github.com/JacobTutt/BayesEoR-JAX">github/JacobTutt/BayesEoR-JAX</a>
+    &nbsp;|&nbsp; <i class="fa-solid fa-book"></i> <a href="https://jacobtutt.github.io/BayesEoR-JAX/dev/">docs</a>
+  </p>
+  <p class="code-stack">Python · JAX · JAXMg · Nested Sampling · Distributed Linear Algebra · Multi-GPU</p>
+  <p>BayesEoR is a Bayesian forward-modelling framework for recovering the cosmological 21-cm power spectrum from interferometric observations. It models the cosmological signal and radio foregrounds jointly through the instrument response, analytically marginalising high-dimensional nuisance parameters to recover the power spectrum and Bayesian evidence for model comparison.</p>
+  <p>This accelerated version combines JAXMg's distributed linear algebra with a statistically optimal, observation-specific latent space. A noise-informed Karhunen–Loève decomposition retains only the foreground modes resolvable above the thermal noise, so the dimensionality reflects the information content of the data rather than the resolution of the model. Constructed once, the basis is amortised across subsequent likelihood evaluations, reducing the full-field coefficient space from over 300,000 to under 10,000. This enables power-spectrum recovery and Bayesian evidence evaluation in around 20 GPU-minutes, with an estimated 830-fold computational saving relative to the unreduced GPU implementation.</p>
+  <p class="code-papers-title">Related papers</p>
+  <ul class="code-papers">
+    <li>An Optimal Latent Space for Amortised Bayesian Uncertainty Quantification and Evidence Evaluation in Interferometric Visibilities <span class="code-venue">In preparation</span></li>
+  </ul>
+</div>
+
+<hr>
+
+<div class="code-entry">
+  <div class="code-img">
     {% include figure.liquid loading="eager" path="assets/img/publication_preview/beam_surrogate_pipeline.png" alt="REACH GPU forward model and inference workflow" zoomable=true avoid_scaling=true %}
   </div>
   <h3>REACH GPU Data Analysis Pipeline</h3>
@@ -49,25 +69,5 @@ Below are some of the research software projects I develop and contribute to. A 
     <li><a href="{{ '/assets/pdf/tutt_2026_sim2sci.pdf' | relative_url }}">A Cross-Domain Simulator and Benchmark for Uncertainty Quantification in Global 21-cm Inference</a> <span class="code-venue">Sim2Science, NeurIPS 2026</span></li>
     <li><a href="https://arxiv.org/abs/2606.16525">Scalable Bayesian data curation for next-generation radio experiments</a> <span class="code-venue">In review at MNRAS</span></li>
     <li><a href="https://arxiv.org/abs/2603.26489">Conditional Neural Bayes Ratio Estimation for Experimental Design Optimisation</a> <span class="code-venue">In review at IEEE TNNLS</span></li>
-  </ul>
-</div>
-
-<hr>
-
-<div class="code-entry">
-  <div class="code-img">
-    {% include figure.liquid loading="eager" path="assets/img/publication_preview/bayeseor_pipeline.png" alt="BayesEoR forward model and inference workflow" zoomable=true avoid_scaling=true %}
-  </div>
-  <h3>BayesEoR-JAX</h3>
-  <p class="code-links">
-    <i class="fa-brands fa-github"></i> <a href="https://github.com/JacobTutt/BayesEoR-JAX">github/JacobTutt/BayesEoR-JAX</a>
-    &nbsp;|&nbsp; <i class="fa-solid fa-book"></i> <a href="https://jacobtutt.github.io/BayesEoR-JAX/dev/">docs</a>
-  </p>
-  <p class="code-stack">Python · JAX · JAXMg · Nested Sampling · Distributed Linear Algebra · Multi-GPU</p>
-  <p>BayesEoR is a Bayesian forward-modelling framework for recovering the cosmological 21-cm power spectrum from interferometric observations. It models the cosmological signal and radio foregrounds jointly through the instrument response, analytically marginalising high-dimensional nuisance parameters to recover the power spectrum and Bayesian evidence for model comparison.</p>
-  <p>This accelerated version combines JAXMg's distributed linear algebra with a statistically optimal, observation-specific latent space. A noise-informed Karhunen–Loève decomposition retains only the foreground modes resolvable above the thermal noise, so the dimensionality reflects the information content of the data rather than the resolution of the model. Constructed once, the basis is amortised across subsequent likelihood evaluations, reducing the full-field coefficient space from over 300,000 to under 10,000. This enables power-spectrum recovery and Bayesian evidence evaluation in around 20 GPU-minutes, with an estimated 830-fold computational saving relative to the unreduced GPU implementation.</p>
-  <p class="code-papers-title">Related papers</p>
-  <ul class="code-papers">
-    <li>An Optimal Latent Space for Amortised Bayesian Uncertainty Quantification and Evidence Evaluation in Interferometric Visibilities <span class="code-venue">In preparation</span></li>
   </ul>
 </div>
